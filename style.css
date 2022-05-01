@@ -1,0 +1,24 @@
+:root {
+  --gpde__download-btn: #4285f4;
+  --gpde__text-color: white;
+}
+
+#gpde__download-btn {
+  border: 1px solid var(--gpde__download-btn);
+  border-radius: 100px;
+  background: none;
+  color: var(--gpde__download-btn);
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+#gpde__download-btn:hover {
+  border: 1px solid var(--gpde__download-btn);
+  color: var(--gpde__text-color);
+  background-color: var(--gpde__download-btn);
+}
+
+#gpde__download-btn:active {
+  opacity: 0.8;
+}
