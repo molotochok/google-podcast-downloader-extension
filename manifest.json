@@ -6,7 +6,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["downloads", "tabs"],
+  "permissions": ["downloads", "tabs", "management"],
   "icons": {
     "16": "/images/icon-16.png",
     "32": "/images/icon-32.png",
